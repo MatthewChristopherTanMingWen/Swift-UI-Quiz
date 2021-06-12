@@ -18,7 +18,8 @@ struct ContentView: View {
     var questions = [
         Question(title: "What day of the week is it?", option1: "Monday", option2: "Saturday", option3: "Sunday", option4: "Wednesday"),
         Question(title: "What does YJ eat?", option1: "Broccoli", option2: "Nutella", option3: "Rice", option4: "MacBooks"),
-        Question(title: "Did Jia Chen sleep last night?", option1: "Yes", option2: "No", option3: "Yes but I needed another answer", option4: "Yes?")
+        Question(title: "Did Jia Chen sleep last night?", option1: "Yes", option2: "No", option3: "Yes but I needed another answer", option4: "Yes?"),
+        Question(title: "Why is discord getting abandoned", option1: "edstem > discord", option2: "idk", option3: "F", option4: "its getting abandoned?")
     ]
     
     var body: some View {
